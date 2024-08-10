@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+	
+	<title>Products - Aj Studio</title>
+</head>
+
+
+
+
+
+
+<body>
+
+
+	<div class="container">
+
+
+		<div class="navbar">
+
+		<div class="logo">
+			<img src="images/logo.png" width="100px">
+		</div>
+
+		<nav>
+			<ul id="MenuItems">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="product.html">Products</a></li>
+				<li><a href="about.html" target="_blank">About</a></li>
+				<li><a href="Contact us.html" target="_blank">Contact</a></li>
+				<li><a href="" target="_blank">FAQ</a></li>
+			</ul>
+		</nav>
+		<img src="images/bag.png" width="30px" height="30px">
+		<img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+	    </div>
+
+		
+	</div>
+
+
+
+
+
+	 <!----- Recent products--------->
+
+	 <div class="small-container">
+	 	<h2 class="title">Recent Stuffs</h2>
+	 	<div class="row">
+
+			<div class="col-4">
+				<img src="Images/img-1.png">
+				<h4>Big Stick</h4>	
+		   </div>
+
+
+	 		<div class="col-4">
+	 		     <img src="Images/img-2.png">
+	 		     <h4>Big Stick</h4>	
+	 	    </div>
+
+
+	 	    <div class="col-4">
+	 		     <img src="Images/img-3.png">
+	 		     <h4>Wired In</h4>	
+	 	    </div>
+
+
+	 	     <div class="col-4">
+	 		     <img src="Images/img-4.png">	
+	 		     <h4>Hide & Seek</h4>
+	 	     </div>
+	 		
+
+	 	</div>
+	 </div>
+
+
+
+
+
+
+	
+
+
+
+
+
+
+<!--------------footer----------->
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="footer-col-1">
+				<h3> Guy With a Camera. </h3>
+				<p> This is a small start up with I, Me and My self. So I would love to use your help.</p>
+			</div>
+
+			<div class="footer-col-2">
+				<img src="Images/Footer.png">
+				<p>Leave the Mark.</p>
+			</div>
+
+			<div class="footer-col-4">
+				<h3>Usefull links</h3>
+				<ul>
+					<li><a href="https://www.instagram.com/aaju_sharma/" target="_blank">Instagram</a></li>
+					<li><a href="https://www.linkedin.com/in/aju-sharma-257a85227/" target="_blank">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/23_skeleton/" target="_blank">Instagram 2.0</a></li>
+					<li><a href="https://www.youtube.com/channel/UC-z1izezQ8rncad5CWSROyw" target="_blank">Youtube</a></li>
+				</ul>
+			</div>
+		
+
+		</div>
+
+		<hr>
+		<p class="copyright"> Copyright 2024 - aj Studio</p>
+	</div>
+</div>
+
+
+
+<!---------js for toggle menu---------->
+
+<script>
+	var MenuItems = document.getElementById("MenuItems");
+
+	MenuItems.style.maxHeight = "0px";
+
+	function menutoggle(){
+		if(MenuItems.style.maxHeight =="0px")
+		{
+			MenuItems.style.maxHeight = "200px";
+		}
+		else{
+			MenuItems.style.maxHeight = "0px";
+		}
+
+	}
+
+</script>
+
+
+</body>
+</html>
